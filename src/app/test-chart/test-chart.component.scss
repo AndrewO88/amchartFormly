@@ -1,0 +1,22 @@
+:host {
+  width: 100%;
+  height: 100%
+}
+
+.wrap {
+  display: flex;
+  height: 100%;
+
+  .container {
+    height: 98%;
+    width: 50%;
+    border: 2px crimson dotted;
+    margin: 5px;
+
+    .chart-container {
+      width: 100%;
+      height: 100%
+    }
+  }
+}
+
